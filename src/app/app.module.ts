@@ -22,6 +22,8 @@ import { GasPage } from '../pages/gas/gas';
 import { OrganicosPage } from '../pages/organicos/organicos';
 import { QuimicosPage } from '../pages/quimicos/quimicos';
 
+import { AngularFireDatabase } from 'angularfire2/database';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -35,13 +37,15 @@ import { QuimicosPage } from '../pages/quimicos/quimicos';
     EstadisticasPage,
     GasPage,
     OrganicosPage,
-    QuimicosPage
+    QuimicosPage//,
+    //AngularFireDatabase
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(FIREBASE_CONFIG),
-    AngularFireAuthModule
+    AngularFireAuthModule//,
+    //AngularFireDatabase
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -64,6 +68,7 @@ import { QuimicosPage } from '../pages/quimicos/quimicos';
     Firebase,
     AngularFireModule,
     AngularFireAuthModule,
+    AngularFireDatabase,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
