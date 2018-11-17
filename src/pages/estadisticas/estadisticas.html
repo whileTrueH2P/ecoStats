@@ -1,12 +1,72 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Estadísticas de los recursos generados</ion-title>
+    <ion-title><img src="./../../assets/imgs/logo.png" height="42" width="42">Estadísticas de los recursos generados</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+      
+      <ion-content padding>
+        <ion-list>
+          <ion-item>
+            <ion-label>Seleccione la fecha</ion-label>
+            <ion-select [(ngModel)]="fecha">
+              <ion-option value="1">17/11/2018</ion-option>
+              <ion-option value="2">16/11/2018</ion-option>
+              <ion-option value="3">15/11/2018</ion-option>
+              <ion-option value="4">14/11/2018</ion-option>
+              <ion-option value="5">13/11/2018</ion-option>
+              <ion-option value="6">12/11/2018</ion-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+        <h2> Fecha 17/11/2018</h2>
+        <!--GRÁFICA 1-->
+        <div>
+        <div id="g1">
+        <ion-card>
+          <img src="" />
+          <ion-card-content>
+            <ion-card-title>
+              <h2>Consumo</h2>
+            </ion-card-title>
+          </ion-card-content>
+        </ion-card>
+        </div>
+      
+        <!--GRÁFICA 2-->
+        <div id="g2">
+        <ion-card>
+          <img src="" />
+          <ion-card-content>
+            <ion-card-title>
+              <h2>Costes</h2>
+              </ion-card-title>
+          </ion-card-content>
+        </ion-card>
+      </div>
+      </div>
+        <h2> Mes actual</h2>
+        <!--GRÁFICA 2-->
+        <ion-card id="g3">
+          <img src="" />
+          <ion-card-content>
+            <ion-card-title>
+              <h2>Consumo</h2>
+            </ion-card-title>
+          </ion-card-content>
+        </ion-card>
+        <!--GRÁFICA 3-->
+        <ion-card id="g4">
+          <img src="" />
+          <ion-card-content>
+            <ion-card-title>
+              <h2>Costes</h2>
+              </ion-card-title>
+          </ion-card-content>
+        </ion-card>
+      </ion-content>
 </ion-content>
