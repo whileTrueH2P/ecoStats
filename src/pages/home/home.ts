@@ -9,7 +9,7 @@ import { EstadisticasPage } from '../estadisticas/estadisticas';
 import { GasPage } from '../gas/gas';
 import { OrganicosPage } from '../organicos/organicos';
 import { QuimicosPage } from '../quimicos/quimicos';
-//import { AngularFireDatabase } from 'angularfire2/database';
+
 
 @Component({
   selector: 'page-home',
@@ -19,9 +19,7 @@ export class HomePage {
 
   constructor(private afAuth: AngularFireAuth,
     private toast: ToastController,
-    public navCtrl: NavController
-    //private db: AngularFireDatabase
-    ) {
+    public navCtrl: NavController) {
 
   }
   ionViewWillLoad() {
