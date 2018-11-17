@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { ErrorHandler, NgModule } from '@angular/core';
+import { ErrorHandler, NgModule, Component } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -23,6 +23,8 @@ import { OrganicosPage } from '../pages/organicos/organicos';
 import { QuimicosPage } from '../pages/quimicos/quimicos';
 
 import { AngularFireDatabase } from 'angularfire2/database';
+import { RegisterPageModule } from '../pages/register/register.module';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,7 @@ import { AngularFireDatabase } from 'angularfire2/database';
     HomePage,
     LoginPage,
     EnergiaPage,
-    RegisterPage,
+   // RegisterPage,
     AguaPage,
     AtmosfericosPage,
     EnergiaSolarPage,
@@ -45,7 +47,7 @@ import { AngularFireDatabase } from 'angularfire2/database';
     IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(FIREBASE_CONFIG),
     AngularFireAuthModule//,
-    //AngularFireDatabase
+   // RegisterPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
