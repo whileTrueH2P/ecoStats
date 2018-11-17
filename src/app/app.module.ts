@@ -12,12 +12,30 @@ import { AngularFireModule } from 'angularfire2';
 import { FIREBASE_CONFIG } from './app.firebase.config';
 import { LoginPage } from '../pages/login/login';
 import { AngularFireAuthModule } from "angularfire2/auth";
+import { RegisterPage } from '../pages/register/register';
+import { AguaPage } from '../pages/agua/agua';
+import { AtmosfericosPage } from '../pages/atmosfericos/atmosfericos';
+import { EnergiaPage } from '../pages/energia/energia';
+import { EnergiaSolarPage } from '../pages/energia-solar/energia-solar';
+import { EstadisticasPage } from '../pages/estadisticas/estadisticas';
+import { GasPage } from '../pages/gas/gas';
+import { OrganicosPage } from '../pages/organicos/organicos';
+import { QuimicosPage } from '../pages/quimicos/quimicos';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    EnergiaPage,
+    RegisterPage,
+    AguaPage,
+    AtmosfericosPage,
+    EnergiaSolarPage,
+    EstadisticasPage,
+    GasPage,
+    OrganicosPage,
+    QuimicosPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +47,16 @@ import { AngularFireAuthModule } from "angularfire2/auth";
   entryComponents: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage, 
+    EnergiaPage,
+    AguaPage,
+    AtmosfericosPage,
+    EnergiaPage,
+    EnergiaSolarPage,
+    EstadisticasPage,
+    GasPage,
+    OrganicosPage,
+    QuimicosPage
   ],
   providers: [
     StatusBar,
