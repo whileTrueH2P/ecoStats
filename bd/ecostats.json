@@ -1,0 +1,254 @@
+[
+    {
+        "type": "header",
+        "version": "4.8.0.1",
+        "comment": "Export to JSON plugin for PHPMyAdmin"
+    },
+    {
+        "type": "database",
+        "name": "ecostats"
+    },
+    {
+        "type": "table",
+        "name": "agua",
+        "database": "ecostats",
+        "data": [
+            {
+                "idAgua": "1",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-06",
+                "idEstadistica": "111"
+            },
+            {
+                "idAgua": "2",
+                "idEmpresa": "A29777001",
+                "fecha": "2018-11-08",
+                "idEstadistica": "112"
+            },
+            {
+                "idAgua": "3",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-01",
+                "idEstadistica": "113"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "autoconsumo",
+        "database": "ecostats",
+        "data": [
+            {
+                "idAutoconsumo": "1",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-06",
+                "idEstadistica": "111"
+            },
+            {
+                "idAutoconsumo": "2",
+                "idEmpresa": "A29777001",
+                "fecha": "2018-11-08",
+                "idEstadistica": "112"
+            },
+            {
+                "idAutoconsumo": "3",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-01",
+                "idEstadistica": "113"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "empresas",
+        "database": "ecostats",
+        "data": [
+            {
+                "nif": "A29268001",
+                "nombre": "FabricaEjemplo",
+                "telefono": "666001122",
+                "codigo_postal": null,
+                "energia": "1",
+                "agua": "1",
+                "gas": "1",
+                "quimicos": "1",
+                "organicos": "0",
+                "atmosfericos": "1",
+                "autoconsumo": "0"
+            },
+            {
+                "nif": "A29268166",
+                "nombre": "GymEjemplo",
+                "telefono": "999001122",
+                "codigo_postal": null,
+                "energia": "1",
+                "agua": "1",
+                "gas": "1",
+                "quimicos": "0",
+                "organicos": "0",
+                "atmosfericos": "0",
+                "autoconsumo": "0"
+            },
+            {
+                "nif": "A29777001",
+                "nombre": "granjaEjemplo",
+                "telefono": "555001122",
+                "codigo_postal": null,
+                "energia": "1",
+                "agua": "1",
+                "gas": "1",
+                "quimicos": "0",
+                "organicos": "1",
+                "atmosfericos": "0",
+                "autoconsumo": "0"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "energia",
+        "database": "ecostats",
+        "data": [
+            {
+                "idEnergia": "1",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-06",
+                "idEstadistica": "111"
+            },
+            {
+                "idEnergia": "2",
+                "idEmpresa": "A29777001",
+                "fecha": "2018-11-08",
+                "idEstadistica": "111"
+            },
+            {
+                "idEnergia": "3",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-01",
+                "idEstadistica": "111"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "estadisticas",
+        "database": "ecostats",
+        "data": [
+            {
+                "idEstadistica": "111",
+                "datos": "sdfsdf.dat",
+                "fecha": "0000-00-00"
+            },
+            {
+                "idEstadistica": "112",
+                "datos": "sdfsdf.dat",
+                "fecha": "0000-00-00"
+            },
+            {
+                "idEstadistica": "113",
+                "datos": "sdfsdf.dat",
+                "fecha": "0000-00-00"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "gas",
+        "database": "ecostats",
+        "data": [
+            {
+                "idGas": "1",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-06",
+                "idEstadistica": "111"
+            },
+            {
+                "idGas": "2",
+                "idEmpresa": "A29777001",
+                "fecha": "2018-11-08",
+                "idEstadistica": "112"
+            },
+            {
+                "idGas": "3",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-01",
+                "idEstadistica": "113"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "resatmosfericos",
+        "database": "ecostats",
+        "data": [
+            {
+                "idAtmos": "1",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-06",
+                "idEstadistica": "111"
+            },
+            {
+                "idAtmos": "2",
+                "idEmpresa": "A29777001",
+                "fecha": "2018-11-08",
+                "idEstadistica": "112"
+            },
+            {
+                "idAtmos": "3",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-01",
+                "idEstadistica": "113"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "resorganicos",
+        "database": "ecostats",
+        "data": [
+            {
+                "idResOrg": "1",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-06",
+                "idEstadistica": "111"
+            },
+            {
+                "idResOrg": "2",
+                "idEmpresa": "A29777001",
+                "fecha": "2018-11-08",
+                "idEstadistica": "112"
+            },
+            {
+                "idResOrg": "3",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-01",
+                "idEstadistica": "113"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "resquimicos",
+        "database": "ecostats",
+        "data": [
+            {
+                "idResQuim": "1",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-06",
+                "idEstadistica": "111"
+            },
+            {
+                "idResQuim": "2",
+                "idEmpresa": "A29777001",
+                "fecha": "2018-11-08",
+                "idEstadistica": "112"
+            },
+            {
+                "idResQuim": "3",
+                "idEmpresa": "A29268001",
+                "fecha": "2018-11-01",
+                "idEstadistica": "113"
+            }
+        ]
+    }
+]
