@@ -7,7 +7,10 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Registro</ion-title>
+    <ion-title>
+        <img src="./../../assets/imgs/logo.png" height="42" width="42">
+        Registro
+      </ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -22,5 +25,5 @@
           <ion-label floating>Contraseña</ion-label>
           <ion-input type="password" [(ngModel)]="user.password"></ion-input>
         </ion-item>
-        <button ion-button (click)="register(user.mail, user.password)">Register</button>
+        <button ion-button (click)="register(user.mail, user.password)">Registro</button>
 </ion-content>
