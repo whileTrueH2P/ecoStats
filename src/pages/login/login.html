@@ -6,8 +6,8 @@
 -->
 <ion-header>
 
-  <ion-navbar color="primary">
-    <ion-title>Login</ion-title>
+  <ion-navbar >
+      <ion-title><img src="./../../assets/imgs/logo.png" height="42" width="42">Login</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -23,7 +23,7 @@
       <ion-input type="password" [(ngModel)]="user.password"></ion-input>
     </ion-item>
 
-    <button ion-button (click)="login()">Login</button>
+    <button ion-button (click)="login(user.mail, user.password)">Login</button>
 
-    <button ion-button color="light" (click)="register()">REgister</button>
+    <button ion-button color="light" (click)="register()">Register</button>
   </ion-content>
